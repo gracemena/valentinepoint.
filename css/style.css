@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+:root{
+--color-general: #333;
+--color-titulos: #333;
+--fondo-gris: #f3f3f3;
+--color-rojo: #af221d;
+--fondo-footer: #333;
+--letra-footer: #fff;
+}
+
+
+body{
+	font-family: "Rubik", serif;;
+	font-size: 16px;
+}
+
+#hero{
+	background-image:url("../img/bg-valentines.jpg");
+	padding:240px;
+	color: #FFFFFF;
+	font-family: "Poppins", serif;;
+	text-align: left;
+	margin:0;
+}
+
+#hero h1{
+	font-size: 60px;
+	
+}
+
+
+#hero h3{
+	font-size: 15px;
+	margin-top: 25px;
+}
+
+.btn{
+	border-radius: 0;
+	background-color: var(--color-rojo);
+	border: none;
+	margin-top: 30px;
+	width: 200px;
+	text-transform:uppercase;
+	font-size: 10px;
+	height:35px;
+	
+}
+
+#guarantee{
+	font-family:"Rubik", serif;;
+	padding: 100px;
+}
+
+#guarantee h3{
+	color:var(--color-rojo);
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 10px;
+	letter-spacing: 4px;
+	margin-top: 100px;
+	 
+}
+	
+
+
+.guarantee i {
+	color:#0ABBB8;
+	margin-top: 40px;
+}
+
+.guarantee h4{
+	font-size:15px;
+	font-weight:500;
+	margin-top: 40px;
+}
+
+#balance{
+	background-color:#DFDFDF;
+	padding: 130px;
+}
+
+#balance img{
+	width:400px;
+	margin-top: 20px;
+	text-align: center;
+	justify-content: center;
+}
+
+
+#balance .sub{
+	color:var(--color-rojo);
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 10px;
+	letter-spacing: 4px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#balance .titulo{
+	font-size: 15px;
+	text-align: center;
+}
+
+#about{
+	padding:100px;
+	background-color: #FFFFFF;
+}
+
+#about .sub{
+	color:var(--color-rojo);
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 10px;
+	letter-spacing: 4px;
+	margin-top: 20px;
+}
+
+#about .titulo{
+	margin-bottom: 15px;
+}
+
+#about img{
+	width: 500px;
+	margin-left: 90px;
+}
+
+#about btn{
+	width:200px;
+	text-transform: uppercase;
+}
+
+#guidance{
+	padding:100px;
+	text-align: center;
+	background-color: #E9E9E9;
+}
+#guidance .sub{
+	color:var(--color-rojo);
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 10px;
+	letter-spacing: 4px;
+	margin-top: 20px;
+}
+
+#guidance p {
+	font-size: 13px;
+	
+}
+
+footer{
+	background-color: #3D3D3D;
+	color: #FFFFFF;
+	padding:50px;
+}
+
+footer h3{
+	margin-top: 30px;
+}
+footer p{
+	margin-top: 20px;
+}
