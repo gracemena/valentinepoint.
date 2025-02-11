@@ -62,11 +62,17 @@ body{
 	font-size: 10px;
 	letter-spacing: 4px;
 	margin-top: 100px;
+	margin-left:60px;
 	 
 }
-	
 
+#guarantee h2{
+	margin-left:60px;
+}
 
+#guarantee .titulo{
+	margin-left:60px;
+}
 .guarantee i {
 	color:#0ABBB8;
 	margin-top: 40px;
